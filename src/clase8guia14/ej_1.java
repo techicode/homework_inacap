@@ -1,3 +1,6 @@
+/*
+Mostrar el número de números divisibles por 2, 3 o 6 entre 1 y un número.
+ */
 package clase8guia14;
 
 import java.util.Scanner;

@@ -1,3 +1,8 @@
+/*
+Ingresar un inicio y un final, y listar los valores que se encuentran entre ellos, si el
+inicio es menor que el final el algoritmo debe ser capaz de mostrar los valores en
+forma creciente, si ocurre lo contrario debe mostrar en decreciente.
+ */
 package clase8guia14;
 
 import java.util.Scanner;

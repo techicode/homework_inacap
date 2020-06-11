@@ -1,3 +1,8 @@
+/*
+Crear un algoritmo que sea capaz de obtener la potencia de un número utilizando
+solo multiplicaciones.
+ */
+
 package clase8guia14;
 
 import java.util.Scanner;

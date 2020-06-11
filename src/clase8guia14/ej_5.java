@@ -1,3 +1,7 @@
+/*
+Crear un algoritmo que permita leer n números y determinar cuál fue el mayor
+ingresado y, cuál el menor.
+ */
 package clase8guia14;
 
 import java.util.Scanner;
@@ -9,17 +13,16 @@ public class ej_5 {
         int maxNumber = Integer.MIN_VALUE;
         int minNumber = Integer.MAX_VALUE;
 
-        while (true){
+        do {
             System.out.print("Ingrese un numero (digite 0 para detener el proceso) : ");
             userInput = scanner.nextInt();
-            if (userInput > maxNumber){
+            if (userInput > maxNumber) {
                 maxNumber = userInput;
-            } if (userInput < minNumber){
-                minNumber = userInput;
-            } if (userInput == 0){
-                break;
             }
-        }
+            if (userInput < minNumber) {
+                minNumber = userInput;
+            }
+        } while (userInput != 0);
         System.out.println("El numero mayor ingresado es: "+maxNumber);
         System.out.println("El numero menor ingresado es: "+minNumber);
 

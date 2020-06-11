@@ -1,3 +1,7 @@
+/*
+Crear un algoritmo que permita obtener la conversión de una temperatura en grado
+Celsius, a Kelvin y Fahrenheit y viceversa.
+ */
 package clase8guia14;
 
 import java.util.Scanner;

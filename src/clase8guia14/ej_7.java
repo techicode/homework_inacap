@@ -2,6 +2,10 @@ package clase8guia14;
 
 import java.util.Scanner;
 
+/**
+ * Calcular por medio de un algoritmo si un valor es un número primo.
+ */
+
 public class ej_7 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

@@ -1,3 +1,7 @@
+/*
+Crear un algoritmo que permita ingresar n números y totalizar pares e impares,
+arrojar el número ganador en total y en cantidad.
+ */
 package clase8guia14;
 
 import java.util.Scanner;
