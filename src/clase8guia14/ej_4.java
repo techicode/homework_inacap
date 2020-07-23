@@ -18,15 +18,15 @@ public class ej_4 {
         if (userInput.toLowerCase().equals("c")){
             System.out.println("La temperatura "+tempInput+" fue ingresada en celcius.");
             System.out.println("Su conversion a grados kelvin es "+(tempInput + 273.15));
-            System.out.println("Su conversion a grados fahrenheit es "+(tempInput * 9 / 5 + 32));
+            System.out.println("Su conversion a grados fahrenheit es "+(tempInput * 1.8 + 32));
         } if (userInput.toLowerCase().equals("k")){
             System.out.println("La temperatura "+tempInput+" fue ingresada en kelvin.");
             System.out.println("Su conversion a grados celcius es "+(tempInput - 273.15));
-            System.out.println("Su conversion a grados fahrenheit es "+((tempInput - 273.15) * 9 / 5 + 32));
+            System.out.println("Su conversion a grados fahrenheit es "+((tempInput - 273.15) * 1.8 + 32));
         } if (userInput.toLowerCase().equals("f")){
             System.out.println("La temperatura "+tempInput+" fue ingresada en fahrenheit.");
-            System.out.println("Su conversion a grados celcius es "+((tempInput - 32) * 5 / 9));
-            System.out.println("Su conversion a grados kelvin es "+((tempInput - 32) * 5 / 9 + 273.15));
+            System.out.println("Su conversion a grados celcius es "+((tempInput - 32) * 1.8));
+            System.out.println("Su conversion a grados kelvin es "+((tempInput - 32) * 1.8 + 273.15));
         }
     }
 }
